@@ -25,3 +25,7 @@
 #container a {
   text-decoration: none;
 }
+
+ion-content {
+  --background : linear-gradient(to right bottom, #020541, #031152, #061a64, #092476, #0a2e89, #153898, #1e43a8, #264eb8, #365cc8, #446ad9, #5279ea, #5f88fb);
+}
