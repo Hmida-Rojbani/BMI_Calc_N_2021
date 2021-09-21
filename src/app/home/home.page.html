@@ -33,5 +33,18 @@
         </ion-card>
       </ion-col>
     </ion-row>
+    <ion-row *ngIf="bmi">
+      <ion-col size-md="6" offset-md="3">
+        <ion-card class="card-clr">
+          <ion-card-header>
+            <ion-card-title>Your are {{description}}</ion-card-title>
+            <ion-card-subtitle>Your BMI is {{bmi | number}} </ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+              <ion-img class="img-ctrl" [src]="imgSrc"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>
